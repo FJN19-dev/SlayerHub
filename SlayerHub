@@ -1,7 +1,7 @@
 
 local KeyInput = nil
 local KeyCorrect = { "slayerkey1" }
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/lorenxzx/KeySystem/refs/heads/main/key')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/FJN19-dev/Slayer/refs/heads/main/Source')))()
 local Window = OrionLib:MakeWindow({Name = "SlayerHub Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "Slayer Hub Key", IntroText = "Slayer Hub Key", IntroIcon = "rbxassetid://97007403462199"})
 OrionLib:MakeNotification({
 	Name = "Pegar key!",
