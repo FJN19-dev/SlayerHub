@@ -68,7 +68,7 @@ if isKeyUsed() then
     showNotification("Key já usada!", "Sua chave já foi registrada, carregando UI.", 5)
     wait(0.5)
     OrionLib:Destroy()
-    loadstring(game:HttpGet(""))()-- AQUI
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FJN19-dev/Slayer/refs/heads/main/Slayer"))()-- AQUI
   else
     -- Solicitar nova chave
     Section:AddTextbox({
